@@ -11,7 +11,7 @@ input,
 select {
     background: none;
     border: 0;
-    color: #fff;
+    color: #cda639;
 }
 
 input {
@@ -20,4 +20,22 @@ input {
 
 select {
     padding: 15px;
+    background: #335;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #335;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 1px;
+    background: lightgray;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: red;
 }

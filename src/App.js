@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import Header from './components/Header/Header'
 
 var myHeaders = new Headers()
-myHeaders.append('apikey', 'mekJrAjoqjNMBo5hfzBSzn3lbJEW43ED')
+myHeaders.append('apikey', 'z4y1T2I6IVaeo2ZKwGNU9yhqQHkNRXhi')
 
 var requestOptions = {
   method: 'GET',
